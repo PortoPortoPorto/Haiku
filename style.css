@@ -1,0 +1,42 @@
+body {
+	margin-left:20px;
+	margin-top:20px;
+}
+
+#main-header {
+	height:150px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+#haiku-container{
+	padding:20px;
+	height:350px;
+	display:flex;
+	flex-direction:column;
+	justify-content:start;
+	align-items:center;
+}
+
+
+#get-haiku{
+	height:50px;
+	width:250px;
+	font-size:20px;
+	border-radius:5px;
+	font-weight:bold;
+}
+
+#get-haiku:hover{
+	background-color:#abaaad;
+	cursor:pointer;
+}
+
+#haiku-space{
+	height:200px;
+	width:90%;
+	margin-right:5%;
+	margin-left:5%;
+	margin-top:20px;
+}
