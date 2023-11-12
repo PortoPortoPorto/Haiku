@@ -1,6 +1,14 @@
 body {
 	margin-left:20px;
 	margin-top:20px;
+	font-family:'Andalé Mono', monospace;
+	background-color:#e6c7ac;
+}
+
+#page-container{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
 }
 
 #main-header {
@@ -12,11 +20,15 @@ body {
 
 #haiku-container{
 	padding:20px;
-	height:350px;
+	height:450px;
+	width:1000px;
 	display:flex;
 	flex-direction:column;
 	justify-content:start;
 	align-items:center;
+	border:solid 2px #6e5a49 ;
+	border-radius:10px;
+	background-color:#a1846a;
 }
 
 
@@ -26,21 +38,25 @@ body {
 	font-size:20px;
 	border-radius:5px;
 	font-weight:bold;
+	background-color:#a1846a;
+	border:solid 2px black ;
+
 }
 
 #get-haiku:hover{
-	background-color:#abaaad;
+	background-color:#e6c7ac;
 	cursor:pointer;
 }
 
 #haiku-space{
-	height:200px;
+	height:350px;
 	width:90%;
 	margin-right:5%;
 	margin-left:5%;
-	margin-top:20px;
+	margin-top:30px;
 	display:flex;
 	flex-direction:column;
 	align-items:center;
 	justify-content:space-around;
+	font-style:italic;
 }

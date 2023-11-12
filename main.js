@@ -12,9 +12,9 @@ function getRandomHaiku () {
 			let output = '';
 			const randomHaiku = randomiseIndex(data);
 			output += 
-			`<h2>${randomHaiku.line1}</h2>
-			 <h2>${randomHaiku.line2}</h2>
-			 <h2>${randomHaiku.line3}</h2>
+			`<h1>${randomHaiku.line1}</h1>
+			 <h1>${randomHaiku.line2}</h1>
+			 <h1>${randomHaiku.line3}</h1>
 			`;
 			document.querySelector('#haiku-space').innerHTML= output; 
 		})
